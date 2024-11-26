@@ -49,7 +49,7 @@ This project is a Role-Based Access Control (RBAC) system for managing users, ro
 - Admin Credentials
   - To log in as an admin, use the following credentials:
 
-  - Username: admin
+  - Username: admin@gmail.com
   - Password: admin
     
 - API Simulations
