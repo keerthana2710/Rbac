@@ -1,0 +1,234 @@
+/* General layout */
+.user-list-container {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #f3f4f6;
+}
+
+h2 {
+  text-align: center;
+  color: #1f2937;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Form and input styling */
+.user-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.user-form input,
+.user-form select,
+.user-form button {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #e5e7eb;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.user-form input:focus,
+.user-form select:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 4px rgba(76, 175, 80, 0.5);
+}
+
+.user-form button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.user-form button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #e5e7eb;
+  font-size: 18px;
+}
+
+table th {
+  background-color: #4CAF50;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+table td {
+  color: #374151;
+}
+
+/* Action button styling */
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:first-of-type {
+  background-color: #ff9800;
+  color: white;
+}
+
+button:first-of-type:hover {
+  background-color: #fb8c00;
+}
+
+button:last-of-type {
+  background-color: #f44336;
+  color: white;
+}
+
+button:last-of-type:hover {
+  background-color: #e53935;
+}
+
+/* Search bar */
+.search-bar {
+  height: 35px;
+  width: 20vw;
+  padding: 5px 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 4px rgba(76, 175, 80, 0.5);
+}
+
+/* Search container */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar left - project title */
+.navbar-left {
+  flex: 1;
+}
+
+.project-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #374151;
+}
+
+/* Navbar right - buttons */
+.navbar-right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* Sort dropdown */
+.sort-select {
+  height: 40px;
+  width: 12vw;
+  padding: 5px;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  font-size: 18px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.sort-select:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 4px rgba(76, 175, 80, 0.5);
+}
+
+/* General transitions */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9fbf9;
+  color: #374151;
+}
+
+/* Role dropdown styling */
+select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the select dropdown */
+select:hover {
+  background-color: #f0f0f0;
+}
+
+/* Focus effect for the select dropdown */
+select:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Disabled select element styling */
+select:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+/* Styling for the role dropdown inside the table */
+td select {
+  width: 150px;
+}

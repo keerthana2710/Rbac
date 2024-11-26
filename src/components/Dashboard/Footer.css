@@ -1,0 +1,27 @@
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #4caf50, #81c784); /* Green gradient */
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+  }
+  
+  .footer p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

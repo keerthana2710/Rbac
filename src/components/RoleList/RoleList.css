@@ -1,0 +1,51 @@
+/* src/components/RoleList.css */
+
+/* General container style */
+.role-list-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the role list */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Style for the role name */
+  li strong {
+    font-size: 20px;
+    color: #4CAF50;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the permissions list */
+  li span {
+    color: #777;
+    font-size: 20px;
+    display: block;
+    margin-top: 5px;
+  }
+  
