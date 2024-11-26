@@ -36,28 +36,28 @@ This project is a Role-Based Access Control (RBAC) system for managing users, ro
 
 - Routing:
   - React Router for navigation between pages.
-Install Dependencies:
 
-bash
-Copy code
-npm install
-Run the Application:
+    
+-Install Dependencies:
 
-bash
-Copy code
-npm run dev
-The app will be available at http://localhost:3000.
 
-Admin Credentials
-To log in as an admin, use the following credentials:
+  -npm install
+-Run the Application:
+  -npm run dev
+  
+  -The app will be available at http://localhost:3000.
 
-Username: admin
-Password: admin
-API Simulations
-The project uses a mock API (mockapi.js) to simulate user and role management operations. The functions available are:
+-Admin Credentials
+  -To log in as an admin, use the following credentials:
 
-fetchUsers(): Fetches all users.
-createUser(user): Creates a new user.
-updateUser(id, updatedData): Updates an existing user's data.
-deleteUser(id): Deletes a user by ID.
-fetchRoles(): Fetches available roles.
+  -Username: admin
+  - Password: admin
+  - 
+-API Simulations
+  -The project uses a mock API (mockapi.js) to simulate user and role management operations. The functions available are:
+
+  -fetchUsers(): Fetches all users.
+  -createUser(user): Creates a new user.
+  -updateUser(id, updatedData): Updates an existing user's data.
+  -deleteUser(id): Deletes a user by ID.
+  -fetchRoles(): Fetches available roles.
